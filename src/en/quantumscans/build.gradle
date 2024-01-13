@@ -1,0 +1,28 @@
+// THIS FILE IS AUTO-GENERATED; DO NOT EDIT
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlinx-serialization'
+
+ext {
+    extName = 'Quantum Scans'
+    pkgNameSuffix = 'en.quantumscans'
+    extClass = '.QuantumScans'
+    extFactory = 'mangathemesia'
+    extVersionCode = 27
+    
+}
+dependencies {
+    implementation(project(":lib-randomua"))
+}
+
+
+apply from: "$rootDir/common.gradle"
+
+android {
+    defaultConfig {
+        manifestPlaceholders += [
+            SOURCEHOST: "readers-point.space",
+            SOURCESCHEME: "https"
+        ]
+    }
+}
