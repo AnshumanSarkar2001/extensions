@@ -1,0 +1,30 @@
+// THIS FILE IS AUTO-GENERATED; DO NOT EDIT
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlinx-serialization'
+
+ext {
+    extName = 'Milftoon'
+    pkgNameSuffix = 'en.milftoon'
+    extClass = '.Milftoon'
+    extFactory = 'madara'
+    extVersionCode = 34
+    isNsfw = true
+
+}
+dependencies {
+    implementation(project(":lib-cryptoaes"))
+    implementation(project(":lib-randomua"))
+}
+
+
+apply from: "$rootDir/common.gradle"
+
+android {
+    defaultConfig {
+        manifestPlaceholders += [
+            SOURCEHOST: "milftoon.xxx",
+            SOURCESCHEME: "https"
+        ]
+    }
+}
