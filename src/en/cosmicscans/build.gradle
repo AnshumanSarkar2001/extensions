@@ -1,0 +1,28 @@
+// THIS FILE IS AUTO-GENERATED; DO NOT EDIT
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlinx-serialization'
+
+ext {
+    extName = 'Cosmic Scans'
+    pkgNameSuffix = 'en.cosmicscans'
+    extClass = '.CosmicScans'
+    extFactory = 'mangathemesia'
+    extVersionCode = 29
+    
+}
+dependencies {
+    implementation(project(":lib-randomua"))
+}
+
+
+apply from: "$rootDir/common.gradle"
+
+android {
+    defaultConfig {
+        manifestPlaceholders += [
+            SOURCEHOST: "cosmic-scans.com",
+            SOURCESCHEME: "https"
+        ]
+    }
+}
