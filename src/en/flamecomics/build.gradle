@@ -1,0 +1,28 @@
+// THIS FILE IS AUTO-GENERATED; DO NOT EDIT
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlinx-serialization'
+
+ext {
+    extName = 'Flame Comics'
+    pkgNameSuffix = 'en.flamecomics'
+    extClass = '.FlameComics'
+    extFactory = 'mangathemesia'
+    extVersionCode = 27
+    
+}
+dependencies {
+    implementation(project(":lib-randomua"))
+}
+
+
+apply from: "$rootDir/common.gradle"
+
+android {
+    defaultConfig {
+        manifestPlaceholders += [
+            SOURCEHOST: "flamecomics.com",
+            SOURCESCHEME: "https"
+        ]
+    }
+}
