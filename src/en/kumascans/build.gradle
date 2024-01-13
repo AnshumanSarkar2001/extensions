@@ -1,0 +1,28 @@
+// THIS FILE IS AUTO-GENERATED; DO NOT EDIT
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlinx-serialization'
+
+ext {
+    extName = 'Kuma Scans (Kuma Translation)'
+    pkgNameSuffix = 'en.kumascans'
+    extClass = '.KumaScans'
+    extFactory = 'mangathemesia'
+    extVersionCode = 28
+    
+}
+dependencies {
+    implementation(project(":lib-randomua"))
+}
+
+
+apply from: "$rootDir/common.gradle"
+
+android {
+    defaultConfig {
+        manifestPlaceholders += [
+            SOURCEHOST: "kumascans.com",
+            SOURCESCHEME: "https"
+        ]
+    }
+}
