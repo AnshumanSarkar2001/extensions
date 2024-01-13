@@ -1,0 +1,29 @@
+// THIS FILE IS AUTO-GENERATED; DO NOT EDIT
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlinx-serialization'
+
+ext {
+    extName = 'Dark Scans'
+    pkgNameSuffix = 'en.darkscans'
+    extClass = '.DarkScans'
+    extFactory = 'madara'
+    extVersionCode = 33
+    
+}
+dependencies {
+    implementation(project(":lib-cryptoaes"))
+    implementation(project(":lib-randomua"))
+}
+
+
+apply from: "$rootDir/common.gradle"
+
+android {
+    defaultConfig {
+        manifestPlaceholders += [
+            SOURCEHOST: "darkscans.com",
+            SOURCESCHEME: "https"
+        ]
+    }
+}
