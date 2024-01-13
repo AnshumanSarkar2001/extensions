@@ -1,0 +1,28 @@
+// THIS FILE IS AUTO-GENERATED; DO NOT EDIT
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlinx-serialization'
+
+ext {
+    extName = 'Infernal Void Scans'
+    pkgNameSuffix = 'en.infernalvoidscans'
+    extClass = '.InfernalVoidScans'
+    extFactory = 'mangathemesia'
+    extVersionCode = 32
+    
+}
+dependencies {
+    implementation(project(":lib-randomua"))
+}
+
+
+apply from: "$rootDir/common.gradle"
+
+android {
+    defaultConfig {
+        manifestPlaceholders += [
+            SOURCEHOST: "void-scans.com",
+            SOURCESCHEME: "https"
+        ]
+    }
+}
