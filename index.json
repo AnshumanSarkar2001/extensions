@@ -855,6 +855,25 @@
         ]
     },
     {
+        "name": "Tachiyomi: Manhua Plus",
+        "pkg": "eu.kanade.tachiyomi.extension.en.manhuaplus",
+        "apk": "tachiyomi-en.manhuaplus-v1.4.37.apk",
+        "lang": "en",
+        "code": 37,
+        "version": "1.4.37",
+        "nsfw": 0,
+        "sources": [
+            {
+                "name": "Manhua Plus",
+                "lang": "en",
+                "id": 6348656130407527406,
+                "baseUrl": "https://manhuaplus.com",
+                "versionId": 1,
+                "hasCloudflare": 0
+            }
+        ]
+    },
+    {
         "name": "Tachiyomi: ManhuaUS",
         "pkg": "eu.kanade.tachiyomi.extension.en.manhuaus",
         "apk": "tachiyomi-en.manhuaus-v1.4.37.apk",
@@ -1026,6 +1045,25 @@
         ]
     },
     {
+        "name": "Tachiyomi: Platinum Crown",
+        "pkg": "eu.kanade.tachiyomi.extension.en.platinumcrown",
+        "apk": "tachiyomi-en.platinumcrown-v1.4.33.apk",
+        "lang": "en",
+        "code": 33,
+        "version": "1.4.33",
+        "nsfw": 0,
+        "sources": [
+            {
+                "name": "Platinum Crown",
+                "lang": "en",
+                "id": 4191212985594406035,
+                "baseUrl": "https://platinumscans.com",
+                "versionId": 1,
+                "hasCloudflare": 0
+            }
+        ]
+    },
+    {
         "name": "Tachiyomi: Quantum Scans",
         "pkg": "eu.kanade.tachiyomi.extension.en.quantumscans",
         "apk": "tachiyomi-en.quantumscans-v1.4.27.apk",
@@ -1064,6 +1102,25 @@
         ]
     },
     {
+        "name": "Tachiyomi: Reaper Scans",
+        "pkg": "eu.kanade.tachiyomi.extension.en.reaperscans",
+        "apk": "tachiyomi-en.reaperscans-v1.4.1.apk",
+        "lang": "en",
+        "code": 1,
+        "version": "1.4.1",
+        "nsfw": 0,
+        "sources": [
+            {
+                "name": "Reaper Scans",
+                "lang": "en",
+                "id": 1169362259451549509,
+                "baseUrl": "https://reaperscans.com",
+                "versionId": 1,
+                "hasCloudflare": 0
+            }
+        ]
+    },
+    {
         "name": "Tachiyomi: Reaper Scans (Unoriginal)",
         "pkg": "eu.kanade.tachiyomi.extension.en.reaperscansunoriginal",
         "apk": "tachiyomi-en.reaperscansunoriginal-v1.4.27.apk",
@@ -1077,6 +1134,25 @@
                 "lang": "en",
                 "id": 5009216245130075479,
                 "baseUrl": "https://reaper-scans.com",
+                "versionId": 1,
+                "hasCloudflare": 0
+            }
+        ]
+    },
+    {
+        "name": "Tachiyomi: Rizzcomic",
+        "pkg": "eu.kanade.tachiyomi.extension.en.rizzcomic",
+        "apk": "tachiyomi-en.rizzcomic-v1.4.1.apk",
+        "lang": "en",
+        "code": 1,
+        "version": "1.4.1",
+        "nsfw": 0,
+        "sources": [
+            {
+                "name": "Rizzcomic",
+                "lang": "en",
+                "id": 6311918588158686934,
+                "baseUrl": "https://rizzcomic.com",
                 "versionId": 1,
                 "hasCloudflare": 0
             }
