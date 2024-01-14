@@ -1199,10 +1199,10 @@
     {
         "name": "Tachiyomi: Webdex Scans",
         "pkg": "eu.kanade.tachiyomi.extension.en.webdexscans",
-        "apk": "tachiyomi-en.webdexscans-v1.4.32.apk",
+        "apk": "tachiyomi-en.webdexscans-v1.4.33.apk",
         "lang": "en",
-        "code": 32,
-        "version": "1.4.32",
+        "code": 33,
+        "version": "1.4.33",
         "nsfw": 0,
         "sources": [
             {
