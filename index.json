@@ -76,6 +76,25 @@
         ]
     },
     {
+        "name": "Tachiyomi: NHentai",
+        "pkg": "eu.kanade.tachiyomi.extension.all.nhentai",
+        "apk": "tachiyomi-all.nhentai-v1.4.39.apk",
+        "lang": "all",
+        "code": 39,
+        "version": "1.4.39",
+        "nsfw": 1,
+        "sources": [
+            {
+                "name": "NHentai",
+                "lang": "all",
+                "id": 7309872737163460316,
+                "baseUrl": "",
+                "versionId": 1,
+                "hasCloudflare": 1
+            }
+        ]
+    },
+    {
         "name": "Tachiyomi: Toomics",
         "pkg": "eu.kanade.tachiyomi.extension.all.toomics",
         "apk": "tachiyomi-all.toomics-v1.4.7.apk",
