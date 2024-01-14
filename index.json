@@ -1045,6 +1045,25 @@
         ]
     },
     {
+        "name": "Tachiyomi: Omega Scans",
+        "pkg": "eu.kanade.tachiyomi.extension.en.omegascans",
+        "apk": "tachiyomi-en.omegascans-v1.4.38.apk",
+        "lang": "en",
+        "code": 38,
+        "version": "1.4.38",
+        "nsfw": 1,
+        "sources": [
+            {
+                "name": "Omega Scans",
+                "lang": "en",
+                "id": 7931881743571557546,
+                "baseUrl": "https://omegascans.org",
+                "versionId": 2,
+                "hasCloudflare": 0
+            }
+        ]
+    },
+    {
         "name": "Tachiyomi: Platinum Crown",
         "pkg": "eu.kanade.tachiyomi.extension.en.platinumcrown",
         "apk": "tachiyomi-en.platinumcrown-v1.4.33.apk",
