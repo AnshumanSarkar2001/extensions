@@ -627,6 +627,25 @@
         ]
     },
     {
+        "name": "Tachiyomi: Kissmanga.in",
+        "pkg": "eu.kanade.tachiyomi.extension.en.kissmangain",
+        "apk": "tachiyomi-en.kissmangain-v1.4.35.apk",
+        "lang": "en",
+        "code": 35,
+        "version": "1.4.35",
+        "nsfw": 0,
+        "sources": [
+            {
+                "name": "Kissmanga.in",
+                "lang": "en",
+                "id": 3721898474726351330,
+                "baseUrl": "https://kissmanga.in",
+                "versionId": 1,
+                "hasCloudflare": 0
+            }
+        ]
+    },
+    {
         "name": "Tachiyomi: Komik Lab",
         "pkg": "eu.kanade.tachiyomi.extension.en.komiklab",
         "apk": "tachiyomi-en.komiklab-v1.4.30.apk",
@@ -754,6 +773,25 @@
                 "lang": "en",
                 "id": 8761706026537619723,
                 "baseUrl": "https://lyrascans.com",
+                "versionId": 1,
+                "hasCloudflare": 0
+            }
+        ]
+    },
+    {
+        "name": "Tachiyomi: MangaBuddy",
+        "pkg": "eu.kanade.tachiyomi.extension.en.mangabuddy",
+        "apk": "tachiyomi-en.mangabuddy-v1.4.15.apk",
+        "lang": "en",
+        "code": 15,
+        "version": "1.4.15",
+        "nsfw": 0,
+        "sources": [
+            {
+                "name": "MangaBuddy",
+                "lang": "en",
+                "id": 3494341622855315519,
+                "baseUrl": "https://mangabuddy.com",
                 "versionId": 1,
                 "hasCloudflare": 0
             }
@@ -1190,7 +1228,7 @@
                 "name": "Rudrascans",
                 "lang": "en",
                 "id": 1449650305996724172,
-                "baseUrl": "",
+                "baseUrl": "https://rudrascans.com",
                 "versionId": 1,
                 "hasCloudflare": 0
             }
@@ -1380,7 +1418,7 @@
                 "name": "Zeroscans",
                 "lang": "en",
                 "id": 3646384520487043839,
-                "baseUrl": "",
+                "baseUrl": "https://zscans.com",
                 "versionId": 1,
                 "hasCloudflare": 0
             }
