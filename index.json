@@ -836,6 +836,25 @@
         ]
     },
     {
+        "name": "Tachiyomi: Manga Monks",
+        "pkg": "eu.kanade.tachiyomi.extension.en.mangamonks",
+        "apk": "tachiyomi-en.mangamonks-v1.4.1.apk",
+        "lang": "en",
+        "code": 1,
+        "version": "1.4.1",
+        "nsfw": 1,
+        "sources": [
+            {
+                "name": "Manga Monks",
+                "lang": "en",
+                "id": 1019898937105419863,
+                "baseUrl": "https://mangamonks.com",
+                "versionId": 1,
+                "hasCloudflare": 0
+            }
+        ]
+    },
+    {
         "name": "Tachiyomi: Mangasushi",
         "pkg": "eu.kanade.tachiyomi.extension.en.mangasushi",
         "apk": "tachiyomi-en.mangasushi-v1.4.35.apk",
