@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Tachiyomi: Area Scans",
+    "pkg": "eu.kanade.tachiyomi.extension.en.areascans",
+    "apk": "tachiyomi-en.areascans-v1.4.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.4.1",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Area Scans",
+        "lang": "en",
+        "id": 5373240242291656000,
+        "baseUrl": "https://en.areascans.net",
+        "versionId": 1,
+        "hasCloudflare": 0
+      }
+    ]
+  },
+  {
+    "name": "Tachiyomi: Manga Monks",
+    "pkg": "eu.kanade.tachiyomi.extension.en.mangamonks",
+    "apk": "tachiyomi-en.mangamonks-v1.4.1.apk",
+    "lang": "en",
+    "code": 1,
+    "version": "1.4.1",
+    "nsfw": 1,
+    "sources": [
+      {
+        "name": "Manga Monks",
+        "lang": "en",
+        "id": 1019898937105419900,
+        "baseUrl": "https://mangamonks.com",
+        "versionId": 1,
+        "hasCloudflare": 0
+      }
+    ]
+  },
+  {
+    "name": "Tachiyomi: Reaper Scans (Unoriginal)",
+    "pkg": "eu.kanade.tachiyomi.extension.en.reaperscansunoriginal",
+    "apk": "tachiyomi-en.reaperscansunoriginal-v1.4.27.apk",
+    "lang": "en",
+    "code": 27,
+    "version": "1.4.27",
+    "nsfw": 0,
+    "sources": [
+      {
+        "name": "Reaper Scans (Unoriginal)",
+        "lang": "en",
+        "id": 5009216245130075000,
+        "baseUrl": "https://reaper-scans.com",
+        "versionId": 1,
+        "hasCloudflare": 0
+      }
+    ]
+  }
+]
