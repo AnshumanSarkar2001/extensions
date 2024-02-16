@@ -55,5 +55,24 @@
         "hasCloudflare": 0
       }
     ]
-  }
+  },
+  {
+    "name": "Tachiyomi: Rizz Comic",
+    "pkg": "eu.kanade.tachiyomi.extension.en.rizzcomic",
+    "apk": "tachiyomi-en.rizzcomic-v1.4.4.apk",
+    "lang": "en",
+    "code": 4,
+    "version": "1.4.4",
+    "nsfw": 0,
+    "sources": [
+        {
+            "name": "Rizz Comics",
+            "lang": "en",
+            "id": 6311918588158686934,
+            "baseUrl": "https://rizzcomic.com",
+            "versionId": 1,
+            "hasCloudflare": 1
+        }
+    ]
+}
 ]
